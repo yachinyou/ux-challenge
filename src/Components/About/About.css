@@ -1,0 +1,96 @@
+.about {
+    text-align: left;
+    margin-bottom: 4em;
+}
+.about h2 {
+    font-size: 2.5em;
+    font-weight: 300;
+    letter-spacing: 0.04em;
+    margin-top: 1em;
+}
+
+.about p {
+    font-size: 1em;
+    line-height: 2em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.about .form-container {
+    margin-top: 2em;
+}
+
+.about form {
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.about form input{
+    background: #fff;
+    border: 1px solid #00BCD1;
+    padding: 0em 0em 0em 1em;
+    border-radius: 0;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.about form button{
+    background: #00BCD1;
+    border: 1px solid #00BCD1;
+    text-transform: uppercase;
+    font-size: 0.875em;
+    font-weight: 600;
+    letter-spacing: 0.075em;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.about form button:hover{
+    background: #fff;
+    border: 1px solid #00BCD1;
+    color: #00BCD1;
+}
+
+
+@media only screen and (max-width: 575px) {
+    
+    .about form {
+        width: 18em;
+        height: 6.5em;
+    }
+    
+    .about form input{
+        width: 100%;
+        height: 3em;
+        margin-bottom: 0.5em;
+        border-radius: 6px;
+    }
+    
+    .about form button{
+        width: 100%;
+        height: 3em;
+        border-radius: 6px;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    
+    .about form {
+        width: 36em;
+        height: 3em;
+    }
+    
+    .about form input{
+        width: 60%;
+        height: 100%;
+    }
+    
+    .about form button{
+        width: 40%;
+        height: 100%;
+    }
+}

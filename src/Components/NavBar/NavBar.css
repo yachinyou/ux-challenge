@@ -1,0 +1,8 @@
+.navbar-logo {
+    width: 6em;
+}
+
+nav.navbar {
+    background: #fff;
+    border-bottom: 1px solid #eee;
+}

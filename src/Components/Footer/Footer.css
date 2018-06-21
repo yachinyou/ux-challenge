@@ -1,0 +1,97 @@
+.footer {
+    padding: 3em;
+    overflow: auto;
+}
+
+.footer h2{
+    font-size: 3em;
+    font-weight: 300;
+    letter-spacing: 0.04em;
+}
+
+.footer h6 {
+    font-size: 1.125em;
+    font-weight: 400;
+    line-height: 1.5em;
+    letter-spacing: 0.05em;
+    margin-top: 1em;
+}
+
+.footer .form-container {
+    margin-top: 2em;
+}
+
+.footer form {
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.footer form input{
+    background: #fff;
+    border: 1px solid #00BCD1;
+    padding: 0em 0em 0em 1em;
+    border-radius: 0;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.footer form button{
+    background: #00BCD1;
+    border: 1px solid #00BCD1;
+    text-transform: uppercase;
+    font-size: 0.875em;
+    font-weight: 600;
+    letter-spacing: 0.075em;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.footer form button:hover{
+    background: #fff;
+    border: 1px solid #00BCD1;
+    color: #00BCD1;
+}
+
+
+@media only screen and (max-width: 575px) {
+    
+    .footer form {
+        width: 18em;
+        height: 6.5em;
+    }
+    
+    .footer form input{
+        width: 100%;
+        height: 3em;
+        margin-bottom: 0.5em;
+        border-radius: 6px;
+    }
+    
+    .footer form button{
+        width: 100%;
+        height: 3em;
+        border-radius: 6px;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    
+    .footer form {
+        width: 36em;
+        height: 3em;
+    }
+    
+    .footer form input{
+        width: 60%;
+        height: 100%;
+    }
+    
+    .footer form button{
+        width: 40%;
+        height: 100%;
+    }
+}

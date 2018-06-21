@@ -1,0 +1,29 @@
+.thank-you-image-container {
+    display: block;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 4em;
+}
+
+.thank-you-image-container img{
+    width: 20em;
+    height: 20em;
+    border-radius: 10em;
+}
+
+
+.thank-you h2{
+    font-size: 2.5em;
+    font-weight: 300;
+    letter-spacing: 0.04em;
+    margin-top: 1em;
+}
+
+.thank-you h6{
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.75em;
+    letter-spacing: 0.05em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
