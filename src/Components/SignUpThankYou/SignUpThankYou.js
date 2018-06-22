@@ -18,7 +18,7 @@ class SignUpThankYou extends Component {
                             <h6>Thank you for joining the free trial! <span className="bold">We are still working hard to bring UX Challenge to you at this moment</span>,
                             and you'll be the first to know when it's ready.</h6>
                             <h6>In the mean time, if you have any questions, suggestions or just want to say hi,
-                            we are over at <span className="bold">uxchallenge (at) gmail (dot) com</span>.</h6>
+                            we are over at <span className="bold">uxchallengeco (at) gmail (dot) com</span>.</h6>
                     </div>
                     <div className="col-xl-3 col-lg-3 col-md-2 col-sm-12 col-12"></div>
                 </div>
