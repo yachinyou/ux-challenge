@@ -15,7 +15,7 @@ class Hero extends Component {
                 <div className="row">
                     <div className="hero-value col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" >
                         <h1>Solve UX Challenges <br />in the Real World</h1>
-                        <h6>Grow your portfolio.<br /> Help nonprofits solve the world’s most challenging problems with design.</h6>
+                        <h6>Expand your portfolio.<br /> Help nonprofits solve the world’s most challenging problems with design.</h6>
                         <div className="form-container">
                             <form action="https://bonsterxbonster.us2.list-manage.com/subscribe/post" method="POST">
                                 <Input type="hidden" name="u" value="7cdd3e7148bfb13d3deb11a50" />
