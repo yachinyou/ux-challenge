@@ -12,7 +12,7 @@ class Footer extends Component {
         return(
             <div className="footer paper">
                 <h2>Real Impact</h2>
-                <h6>Do good. Add it to your portfolio.</h6>
+                <h6>Expand your portfolio and help a nonprofit organization.</h6>
                 <div className="form-container">
                     <form action="https://bonsterxbonster.us2.list-manage.com/subscribe/post" method="POST">
                         <Input type="hidden" name="u" value="7cdd3e7148bfb13d3deb11a50" />

@@ -26,7 +26,7 @@ class Hero extends Component {
                         </div>
                     </div>
                     <div className="hero-image col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                        <img src={HeroImage} clat="solve ux challenges in the real world" />
+                        <img src={HeroImage} alt="solve ux challenges in the real world" />
                     </div>
                 </div>
             </div>

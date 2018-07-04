@@ -19,8 +19,8 @@ class SellSheet extends Component {
                             <img src={Sell1Image} clat="solve ux challenges in the real world" />
                         </div>
                         <div className="sell-text col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12" >
-                            <h2>Real Projects</h2>
-                            <h6>Help nonprofits solve problems with your UX design skills and make the world a better place.</h6>
+                            <h2>Real Problems</h2>
+                            <h6>Help nonprofits solve real world problems with your UX design skills.</h6>
                         </div>
                     </div>
                     <div className="row sell-section">
@@ -29,7 +29,7 @@ class SellSheet extends Component {
                         </div>
                         <div className="sell-text col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12" >
                             <h2>Real Experience</h2>
-                            <h6>Get out there.<br /> Interview users, analyze data and get feedback on your design solutions from users, stakeholders and the community.</h6>
+                            <h6>Get out there.<br /> Interview users, analyze data and get feedback on your design solutions from the organizations.</h6>
                         </div>
                     </div>
                     <div className="row sell-section">

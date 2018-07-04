@@ -1,0 +1,224 @@
+
+.sell-text ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 2em;
+}
+
+.sell-text ul li{
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.75em;
+    letter-spacing: 0.025em;
+    padding: 1em 0;
+}
+
+.sell-text ul li svg{
+    vertical-align: text-top;
+    margin-right: 0.25em;
+}
+
+.how-it-works {
+    margin-top: 2em;
+    padding: 3em 0 6em 0;
+}
+
+.how-it-works-profile {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.how-it-works-profile img{
+    width: 50%;
+}
+
+.how-it-works-profile h5{
+    font-size: 1em;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.75em;
+    letter-spacing: 0.025em;
+    padding: 1em 0;
+}
+
+.how-it-works-profile p{
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.75em;
+    letter-spacing: 0.025em;
+}
+
+.how-it-works Button {
+    background: #ffffff;
+    border: 1px solid #00BCD1;
+    color: #00BCD1;
+    text-transform: uppercase;
+    font-size: 0.875em;
+    font-weight: 600;
+    letter-spacing: 0.075em;
+    border-radius: 6px;
+    padding: 1em 2em;
+}
+
+.how-it-works Button:hover {
+    background: #00BCD1;
+    border: 1px solid #00BCD1;
+    color: #ffffff;
+}
+
+.what-is-case-study {
+    margin-top: 2em;
+    padding: 3em 0 6em 0;
+}
+
+.what-is-case-study img{
+    width: 100%;
+}
+
+.what-is-case-study p{
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.75em;
+    letter-spacing: 0.025em;
+    margin-top: 5em;
+}
+
+.case-study-text {
+    text-align: left;
+    padding-top: 3em;
+}
+
+.npo-upsell {
+    padding: 3em 1em;
+    text-align: center;
+}
+
+.npo-upsell h2{
+    margin: 0;
+}
+
+.npo-upsell img{
+    width: 75%;
+    display: block;
+    margin: 3em auto;
+}
+
+.npo-upsell Button {
+    background: #00BCD1;
+    border: 1px solid #00BCD1;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 0.875em;
+    font-weight: 600;
+    letter-spacing: 0.075em;
+    border-radius: 6px;
+    padding: 1em 2em;
+    margin-top: 3em;
+}
+
+.npo-upsell Button:hover {
+    background: #ffffff;
+    border: 1px solid #00BCD1;
+    color: #00BCD1;
+}
+
+.npo-faq {
+    padding: 6em 0;
+}
+
+.npo-faq .card-columns {
+    column-count: 2;
+}
+
+@media only screen and (max-width: 575px) {
+    
+    .npo-faq .card-columns {
+        column-count: 1;
+    }
+
+}
+
+.npo-faq .card {
+    background-color: #ffffff;
+    box-shadow: 0 3px 30px 0 rgba(0,0,0,0.05);
+    border: none;
+    border-radius: 0;
+    text-align: left;
+    margin-top: 0.875em;
+    margin-bottom: 0.875em;
+}
+
+.npo-faq .card-body {
+    padding: 2.5em;
+}
+
+.npo-faq .card-title {
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 1.75em;
+    letter-spacing: 0.025em;
+}
+
+.npo-faq .card-title svg{
+    vertical-align: text-top;
+    margin-right: 0.5em;
+}
+
+.npo-faq .card-text {
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.75em;
+    letter-spacing: 0.025em;
+}
+
+.npo-steps-section {
+    padding: 3em 0;
+}
+
+.npo-steps {
+    padding: 0 4em;
+    margin-bottom: 2em;
+}
+
+.npo-circle {
+    width: 4em;
+    padding: 1.25em 0;
+    border-radius: 2em;
+    color: #15454A;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 0 auto;
+}
+
+.npo-steps h5 {
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 1.75em;
+    letter-spacing: 0.025em;
+    margin-top: 2em;
+}
+
+.npo-steps p {
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.75em;
+    letter-spacing: 0.025em;
+}
+
+.npo-steps-section Button {
+    background: #00BCD1;
+    border: 1px solid #00BCD1;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 0.875em;
+    font-weight: 600;
+    letter-spacing: 0.075em;
+    border-radius: 6px;
+    padding: 1em 2em;
+}
+
+.npo-steps-section Button:hover {
+    background: #ffffff;
+    border: 1px solid #00BCD1;
+    color: #00BCD1;
+}
