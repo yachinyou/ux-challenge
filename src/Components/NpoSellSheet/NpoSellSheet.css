@@ -1,4 +1,22 @@
 
+a.btn-lg {
+    background: #00BCD1;
+    border: 1px solid #00BCD1;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 0.875em;
+    font-weight: 600;
+    letter-spacing: 0.075em;
+    border-radius: 6px;
+    padding: 1em 2em;
+  }
+  
+a.btn-lg:hover {
+    background: #ffffff;
+    border: 1px solid #00BCD1;
+    color: #00BCD1;
+}
+
 .sell-text ul {
     list-style-type: none;
     padding: 0;
@@ -103,25 +121,6 @@
     margin: 3em auto;
 }
 
-.npo-upsell Button {
-    background: #00BCD1;
-    border: 1px solid #00BCD1;
-    color: #ffffff;
-    text-transform: uppercase;
-    font-size: 0.875em;
-    font-weight: 600;
-    letter-spacing: 0.075em;
-    border-radius: 6px;
-    padding: 1em 2em;
-    margin-top: 3em;
-}
-
-.npo-upsell Button:hover {
-    background: #ffffff;
-    border: 1px solid #00BCD1;
-    color: #00BCD1;
-}
-
 .npo-faq {
     padding: 6em 0;
 }
@@ -172,7 +171,7 @@
 }
 
 .npo-steps-section {
-    padding: 3em 0;
+    padding: 6em 0;
 }
 
 .npo-steps {
@@ -205,20 +204,4 @@
     letter-spacing: 0.025em;
 }
 
-.npo-steps-section Button {
-    background: #00BCD1;
-    border: 1px solid #00BCD1;
-    color: #ffffff;
-    text-transform: uppercase;
-    font-size: 0.875em;
-    font-weight: 600;
-    letter-spacing: 0.075em;
-    border-radius: 6px;
-    padding: 1em 2em;
-}
 
-.npo-steps-section Button:hover {
-    background: #ffffff;
-    border: 1px solid #00BCD1;
-    color: #00BCD1;
-}

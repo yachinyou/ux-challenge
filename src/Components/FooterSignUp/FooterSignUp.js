@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import './Footer.css';
+import './FooterSignUp.css';
 
 import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 
-class Footer extends Component {
+class FooterSignUp extends Component {
     constructor(props) {
         super(props);
     }
@@ -26,4 +26,4 @@ class Footer extends Component {
     }
 }
 
-export default Footer;
+export default FooterSignUp;

@@ -24,64 +24,14 @@
     width: 100%;
 }
 
-.npo-hero Button{
-    background: #00BCD1;
-    border: 1px solid #00BCD1;
-    text-transform: uppercase;
-    font-size: 0.875em;
-    font-weight: 600;
-    letter-spacing: 0.075em;
-    border-radius: 6px;
-    padding: 1em 2em;
+.npo-hero a.btn-lg{
     margin: 2em auto 3em auto;
 }
 
-.npo-hero Button:hover{
-    background: #fff;
-    border: 1px solid #00BCD1;
-    color: #00BCD1;
-}
-
-
-/* @media only screen and (max-width: 575px) {
+@media only screen and (max-width: 575px) {
     
-    .hero-image img{
+    .npo-hero img{
         display: none;
     }
 
-    .hero-value form {
-        width: 18em;
-        height: 6.5em;
-    }
-    
-    .hero-value form input{
-        width: 100%;
-        height: 3em;
-        margin-bottom: 0.5em;
-        border-radius: 6px;
-    }
-    
-    .hero-value form button{
-        width: 100%;
-        height: 3em;
-        border-radius: 6px;
-    }
 }
-
-@media only screen and (min-width: 576px) {
-    
-    .hero-value form {
-        width: 30em;
-        height: 3em;
-    }
-    
-    .hero-value form input{
-        width: 60%;
-        height: 100%;
-    }
-    
-    .hero-value form button{
-        width: 40%;
-        height: 100%;
-    }
-} */

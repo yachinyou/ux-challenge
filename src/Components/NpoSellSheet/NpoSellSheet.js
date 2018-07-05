@@ -54,7 +54,7 @@ class NpoSellSheet extends Component{
                             </div>
                             <div className="col-xl-2 col-lg-3 col-md-12 col-sm-12 col-12"></div>
                         </div>
-                        <Button size="lg">View sample design challenge</Button>
+                        <Button size="lg" href="/sample-design-challenge">View sample design challenge</Button>
                     </div>
                 </div>
                 <div className="container">
@@ -94,7 +94,7 @@ class NpoSellSheet extends Component{
                         <h2>More visitors, more engagement, more actions</h2>
                         <h6>for your organization’s website or app.</h6>
                         <img src={NpoUpsellImage} alt="nonprofit organizations" />
-                        <Button size="lg">Post a challenge</Button>
+                        <Button size="lg" href="/challenge-form">Post a challenge</Button>
                     </div>
                 </div>
                 <div className="npo-faq paper">
@@ -189,7 +189,7 @@ class NpoSellSheet extends Component{
                                 <p>View case studies for your design challenge and get inspired.</p>
                             </div>
                         </div>
-                        <Button size="lg">Post a challenge</Button>
+                            <Button size="lg" href="/challenge-form">Post a challenge</Button>
                     </div>
                 </div>  
             </div>    

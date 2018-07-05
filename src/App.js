@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
 import './App.css';
 import { ReactTitle } from 'react-meta-tags';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Link } from 'react-router-dom';
 import NavBar from './Components/NavBar/NavBar';
 import Hero from './Components/Hero/Hero';
 import SellSheet from './Components/SellSheet/SellSheet';
-import Footer from './Components/Footer/Footer';
+import FooterSignUp from './Components/FooterSignUp/FooterSignUp';
 import ThankYou from './Components/SignUpThankYou/SignUpThankYou';
 import AboutPage from './Components/About/About';
 import NpoHero from './Components/NpoHero/NpoHero';
 import NpoSellSheet from './Components/NpoSellSheet/NpoSellSheet';
 import ChallengeForm from './Components/ChallengeForm/ChallengeForm';
+import SampleDesignChallenge from './Components/SampleDesignChallenge/SampleDesignChallenge';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -39,9 +40,10 @@ class App extends Component {
           <Route path="/npo" exact component={NpoHero} />
           <Route path="/npo" exact component={NpoSellSheet} />
           <Route path="/challenge-form" exact component={ChallengeForm} />
+          <Route path="/sample-design-challenge" exact component={SampleDesignChallenge} />
           <Route path="/thankyou" exact component={ThankYou} />
           <Route path="/about" exact component={AboutPage} />
-          <Route path="/" exact component={Footer} />
+          <Route path="/" exact component={FooterSignUp} />
         </div>
       </BrowserRouter>
     );
