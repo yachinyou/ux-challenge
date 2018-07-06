@@ -40,7 +40,7 @@ class NavBar extends Component {
                 <Collapse isOpen={this.state.isOpen} navbar>
                 <Nav className="ml-auto" navbar>
                     <NavItem>
-                        <NavLink href="/npo">For NPO</NavLink>
+                        <NavLink href="/npo">For Organizations</NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink href="/about">About</NavLink>

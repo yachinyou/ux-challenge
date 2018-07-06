@@ -19,13 +19,20 @@
     margin-top: 2em;
 }
 
+.small-print-blue {
+    font-size: 0.875em;
+    color: #75A5B1;
+    margin-top: 0.5em;
+}
+
 .npo-hero img{
     display: block;
     width: 100%;
+    margin-top: 3em;
 }
 
 .npo-hero a.btn-lg{
-    margin: 2em auto 3em auto;
+    margin: 2em auto 0 auto;
 }
 
 @media only screen and (max-width: 575px) {

@@ -15,8 +15,9 @@ class NpoHero extends Component {
             <div className="npo-hero">
                 <div className="container">
                     <h1>Free design case studies<br />for your nonprofit organization</h1>
-                    <h6>Post a design challenge.<br />See case studies created for your website or app idea.</h6>
-                        <Button size="lg" href="/challenge-form">Post a challenge</Button>
+                    <h6>Create a design challenge.<br />See case studies designed for your website or app idea.</h6>
+                    <Button size="lg" href="/challenge-form">Create a challenge</Button>
+                    <p className="small-print-blue">In under 10 minutes</p>
                     <img src={NpoHeroImage} alt="solve ux challenges in the real world" />
                 </div>
             </div>

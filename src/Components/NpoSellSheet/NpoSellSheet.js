@@ -38,7 +38,7 @@ class NpoSellSheet extends Component{
                 <div className="how-it-works paper">
                     <div className="container">
                         <h2>How it works</h2>
-                        <h6>UX Challenge lists design challenges that help designers<br /> practice their skills and expand their portfolios. </h6>
+                        <h6>UX Challenge lists real world design challenges from nonprofits that help designers<br /> practice their skills and expand their portfolios. </h6>
                         <div className="row sell-section">
                             <div className="col-xl-2 col-lg-2 col-md-12 col-sm-12 col-12"></div>
                             <div className="how-it-works-profile col-xl-3 col-lg-3 col-md-4 col-sm-12 col-12" >
@@ -94,7 +94,8 @@ class NpoSellSheet extends Component{
                         <h2>More visitors, more engagement, more actions</h2>
                         <h6>for your organization’s website or app.</h6>
                         <img src={NpoUpsellImage} alt="nonprofit organizations" />
-                        <Button size="lg" href="/challenge-form">Post a challenge</Button>
+                        <Button size="lg" href="/challenge-form">Create a challenge</Button>
+                        <p className="small-print-blue">In under 10 minutes</p>
                     </div>
                 </div>
                 <div className="npo-faq paper">
@@ -175,8 +176,8 @@ class NpoSellSheet extends Component{
                         <div className="row sell-section">
                             <div className="npo-steps col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12" >
                                 <div className="npo-circle paper">1</div>
-                                <h5>Post a design challenge</h5>
-                                <p>Use our guided form to post a design challenge. It will be published once your nonprofit status is verified. </p>
+                                <h5>Create a design challenge</h5>
+                                <p>Use our guided form to create a design challenge in under 10 minutes. It will be published once your nonprofit status is verified. </p>
                             </div>
                             <div className="npo-steps col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12" >
                                 <div className="npo-circle paper">2</div>
@@ -189,7 +190,8 @@ class NpoSellSheet extends Component{
                                 <p>View case studies for your design challenge and get inspired.</p>
                             </div>
                         </div>
-                            <Button size="lg" href="/challenge-form">Post a challenge</Button>
+                            <Button size="lg" href="/challenge-form">Create a challenge</Button>
+                            <p className="small-print-blue">In under 10 minutes</p>
                     </div>
                 </div>  
             </div>    
