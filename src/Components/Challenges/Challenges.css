@@ -1,0 +1,268 @@
+.challenges-list {
+    padding: 2em 0;
+    box-shadow: inset 0 2px 30px 0 rgba(0,0,0,0.07);
+}
+
+/* .challenges-list .card-deck {
+    column-count: 3;
+}
+
+@media only screen and (max-width: 575px) {
+    
+    .challenges-list .card-columns {
+        column-count: 1;
+    }
+
+} */
+
+.challenges-list .challenges-inspiration{
+    margin: 2em auto 4em auto;
+}
+
+.challenges-list .challenges-inspiration a{
+    color: #32A6B3;
+    text-decoration: underline;
+}
+
+.challenges-list .challenges-inspiration svg{
+margin-right: 0.5em;
+}
+
+.challenges-list .card {
+    display: inline-block;
+    background-color: #ffffff;
+    box-shadow: 0 3px 30px 0 rgba(0,0,0,0.05);
+    border: none;
+    border-radius: 0;
+    text-align: left;
+    margin: 1em;
+    width: 20em;
+}
+
+.challenges-list .card-body {
+    padding: 1em 2em 3em 2em;
+}
+
+.challenges-list .card-title {
+    background-image: linear-gradient(0deg, #F2FEFF 7%, #FFFFFF 89%, #FFFFFF 89%);
+    min-height: 9.5em;
+    font-size: 1.125em;
+    font-weight: 400;
+    line-height: 1.5em;
+    letter-spacing: 0.025em;
+    padding: 1.5em 2em 2em 2em;
+}
+
+.cat-tag{
+    overflow: auto;
+    margin-bottom: 1em;
+}
+
+.cat-tag .icon-bg{
+    width: 2em;
+    height: 2em;
+    border-radius: 1em;
+    float: left;
+    margin-right: 0.5em;
+}
+
+.cat-tag .icon-bg svg{
+    width: 2em;
+    margin: 0.5em 0 0 0;
+    height: 0.875em;
+}
+
+.cat-tag .tag-name{
+    font-size: 0.675em;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 0.5em;
+    letter-spacing: 0.025em;
+}
+
+.challenges-list .card-text {
+    font-size: 0.875em;
+    font-weight: 400;
+    line-height: 1.75em;
+    color: #8A9699;
+    margin-bottom: 1.5em;
+}
+
+.card .card-body Button {
+    font-size: 0.75em;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #32A6B3;
+    background: #fff;
+    border: 1px solid #C3D7D9;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 1em;
+}
+
+.card .card-body Button:hover {
+    color: #fff;
+    background: #32A6B3;
+    border: 1px solid #32A6B3;
+}
+
+/* Challenge Details Modal */
+
+.challenge-details {
+    font-family: "Open Sans", sans-serif;
+}
+
+.challenge-details .cat-tag{
+    margin: 0 auto;
+}
+
+.challenge-details .cat-tag .icon-bg{
+    float: none;
+    margin: 2em auto 1em auto;
+}
+
+.challenge-details .modal-content .challenge-details-title{
+    padding: 2em 2em 3em 2em;
+    background-image: linear-gradient(0deg, #F2FEFF 7%, #FFFFFF 89%, #FFFFFF 89%);
+    text-align: center;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+
+}
+
+.challenge-details .modal-content .challenge-details-title h5{
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    text-align: center;
+
+}
+
+.challenge-details .modal-content .modal-body{
+    padding: 2em;
+    line-height: 1.75em;
+    letter-spacing: 0.025em;
+    font-size: 1em;
+}
+
+.challenge-details .modal-content .modal-body .challenge-description{
+    color: #000000;
+}
+
+.challenge-details .modal-content .modal-body .challenge-instruction{
+    color: #8A9899;
+}
+
+.challenge-variation-header{
+    padding-bottom: 0.75em;
+    margin: 2em 0 1em 0;
+    border-bottom: 1px solid #dedede;
+}
+
+.challenge-variation-header span{
+    margin-left: 0.5em;
+    color: #8A9899;
+    font-weight: 700;
+    font-size: 0.875em;
+}
+
+.challenge-details .modal-content .modal-footer Button {
+    font-size: 0.75em;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #32A6B3;
+    background: #fff;
+    border: 1px solid #C3D7D9;
+    text-transform: uppercase;
+    padding: 1em;
+    float: right;
+}
+
+.challenge-details .modal-content .modal-footer Button:hover {
+    color: #fff;
+    background: #32A6B3;
+    border: 1px solid #32A6B3;
+}
+
+/* Category Tag Styling */
+
+.e-commerce .icon-bg{
+    background: #901AD2;
+}
+
+.e-commerce .tag-name{
+    color: #901AD2;
+}
+
+.smart-home .icon-bg{
+    background: #F26611;
+}
+
+.smart-home .tag-name{
+    color: #F26611;
+}
+
+.transportation .icon-bg{
+    background: #323142;
+}
+
+.transportation .tag-name{
+    color: #323142;
+}
+
+.productivity .icon-bg{
+    background: #233EF0;
+}
+
+.productivity .tag-name{
+    color: #233EF0;
+}
+
+.health-fitness .icon-bg{
+    background: #82C600;
+}
+
+.health-fitness .tag-name{
+    color: #82C600;
+}
+
+.education .icon-bg{
+    background: #107788;
+}
+
+.education .tag-name{
+    color: #107788;
+}
+
+.communication .icon-bg{
+    background: #FFAE00;
+}
+
+.communication .tag-name{
+    color: #FFAE00;
+}
+
+.fintech .icon-bg{
+    background: #00914B;
+}
+
+.fintech .tag-name{
+    color: #00914B;
+}
+
+.travel .icon-bg{
+    background: #29D2CE;
+}
+
+.travel .tag-name{
+    color: #29D2CE;
+}
+
+.news .icon-bg{
+    background: #F20000;
+}
+
+.news .tag-name{
+    color: #F20000;
+}
+

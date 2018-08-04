@@ -1,11 +1,11 @@
 .hero {
-    background-image: linear-gradient(-180deg, #F2FEFF 3%, #FFFFFF 98%, #FFFFFF 98%);
-    box-shadow: 0 2px 40px 0 rgba(0,0,0,0.06);
-    padding: 4em;
+    background-image: url("../../images/topography_pattern.png"); 
+    background-image: url("../../images/topography_pattern.png"), linear-gradient(#EEFFFF, #fff); 
+    padding: 5em 4em 5em 4em;
 }
 
 .hero-value{
-    text-align: left;
+    text-align: center;
 }
 
 .hero-value h1 {
@@ -15,9 +15,9 @@
 }
 
 .hero-value h6 {
-    font-size: 1em;
+    font-size: 1.125em;
     font-weight: 400;
-    line-height: 1.75em;
+    line-height: 2em;
     letter-spacing: 0.05em;
     margin-top: 2em;
 }
