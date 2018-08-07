@@ -25,7 +25,7 @@ class Challenges extends Component {
                     id: 1,
                     title: "Finding jeans that fit",
                     category: "e-commerce",
-                    description: "Online shopping for form fitting apparel such as jeans could be tricky. How can you help customers select the style of jeans that they’re looking for in a size that fits?",
+                    description: "Shopping for form-fitting apparel, like jeans, online could be time-consuming and frustrating. It's hard to compare between different styles, and the return is a hassle when it's in the wrong size. How can you help customers select the style of jeans that they’re looking for in a size that fits?",
                     className: "e-commerce"
                 },
                 {
@@ -39,7 +39,7 @@ class Challenges extends Component {
                     id: 3,
                     title: "Wake up, this is your stop",
                     category: "transportation",
-                    description: "Have you ever tried to take a short nap on the train only to wake up and find yourself at the end of the line? How can you help passengers wake up when the train has arrived at their station?",
+                    description: "Have you ever tried to take a short nap on the train only to wake up and find yourself at the end of the line? How can you help passengers wake up just before the train arrive at their station?",
                     className: "transportation"
                 },
                 {
@@ -60,7 +60,7 @@ class Challenges extends Component {
                     id: 6,
                     title: "Survival language lessons",
                     category: "education",
-                    description: "Ever need to travel to a country where you don’t even know how to speak the most basic phrases in that language? How can you help travelers learn the bare minimum language to survive before their trip?",
+                    description: "Ever need to travel to a country where you don’t even know how to speak the most basic phrases in that language? How can you help travelers learn the bare minimum language to survive within days before their trip?",
                     className: "education"
                 },
                 {
@@ -79,16 +79,16 @@ class Challenges extends Component {
                 },
                 {
                     id: 9,
-                    title: "Prep for the weather like a local",
+                    title: "Acclimatize me now!",
                     category: "travel",
-                    description: "It’s one thing to know what the weather is like in your travel destination, and it’s quite another thing to be totally prepared and not let the weather spoil the fun while traveling. How can you design a product that helps travelers prepare and acclimatize fast for their trip?",
+                    description: "It’s one thing to know what the weather is like in your travel destination, and it’s quite another thing to be totally prepared through temperature or altitude changes so that you stay fit and healthy during the trip. How can you design a product that helps travelers prepare and acclimatize fast for their trip so they don't miss a minute of fun?",
                     className: "travel"
                 },
                 {
                     id: 10,
                     title: "Reading articles on the go",
                     category: "news & media",
-                    description: "When we’re reading while on the go, we often get interrupted by events such as the train arriving or social interactions. Many interesting articles get abandoned or added to the ever growing “read later” list. How can you design an experience so readers can read effectively while on the go?",
+                    description: "When we’re reading on the go, we often get interrupted by events such as the train arriving or social interactions with other people. Many interesting articles get abandoned or added to the ever growing “read later” list. How can you design an experience so readers can read effectively while on the go?",
                     className: "news"
                 }
             ]

@@ -176,7 +176,7 @@ margin: 0em 0.5em;
     border: 1px solid #C3D7D9;
     text-transform: uppercase;
     padding: 1em;
-    float: right;
+    margin: 0 auto;
 }
 
 .challenge-details .modal-content .modal-footer Button:hover {
