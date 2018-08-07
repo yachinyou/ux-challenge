@@ -17,6 +17,7 @@
 
 .challenges-list .challenges-inspiration{
     margin: 2em auto 4em auto;
+    line-height: 2em;
 }
 
 .challenges-list .challenges-inspiration a{
@@ -25,7 +26,7 @@
 }
 
 .challenges-list .challenges-inspiration svg{
-margin-right: 0.5em;
+margin: 0em 0.5em;
 }
 
 .challenges-list .card {
@@ -161,7 +162,7 @@ margin-right: 0.5em;
 
 .challenge-variation-header span{
     margin-left: 0.5em;
-    color: #8A9899;
+    color: #32A6B3;
     font-weight: 700;
     font-size: 0.875em;
 }

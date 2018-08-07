@@ -1,5 +1,8 @@
 .about {
     margin-bottom: 4em;
+    font-size: 1.125em;
+    line-height: 2em;
+    letter-spacing: 0.025em;
 }
 .about h2 {
     font-size: 2.5em;
@@ -10,10 +13,8 @@
 }
 
 .about p {
-    font-size: 1em;
-    line-height: 2em;
-    margin-top: 3em;
-    margin-bottom: 3em;
+    margin-top: 2em;
+    margin-bottom: 2em;
     text-align: left;
 }
 
@@ -21,7 +22,15 @@
     width: 8em;
     height: 8em;
     float: left;
-    margin-right: 2em;
+    margin: 0 2em 1em 0;
+}
+
+.about ul {
+    text-align: left;
+}
+
+.about ul li{
+    margin: 1em;
 }
 
 .about .form-container {
@@ -44,23 +53,24 @@
     border-bottom-left-radius: 6px;
 }
 
-.about form button{
+.about a.start-button {
     background: #00BCD1;
+    color: #fff;
     border: 1px solid #00BCD1;
+    padding: 1em 2em;
     text-transform: uppercase;
-    font-size: 0.875em;
+    font-size: 0.75em;
     font-weight: 600;
     letter-spacing: 0.075em;
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px;
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
+    border-radius: 6px;
+    float: left;
 }
 
-.about form button:hover{
+.about a.start-button:hover{
     background: #fff;
     border: 1px solid #00BCD1;
     color: #00BCD1;
+    text-decoration: none;
 }
 
 

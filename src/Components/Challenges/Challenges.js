@@ -118,7 +118,7 @@ class Challenges extends Component {
             <div>
                 <div className="challenges-list paper">
                     <div className="container">
-                    <p className="challenges-inspiration"><FontAwesomeIcon icon="chart-line" color="#F20000" size="lg" />Challenges are <span className="bold">inspired by trending products </span>on sites like Product Hunt or BetaList. Have fun! <a href="/about">About UX Challenge</a></p>
+                    <p className="challenges-inspiration"><FontAwesomeIcon icon="bolt" color="#F7B700" size="lg" />Challenges are <span className="bold">inspired by trending products </span>from sites like Product Hunt or BetaList. Have fun! <a href="/about">About UX Challenge</a><FontAwesomeIcon icon="bolt" color="#F7B700" size="lg" /></p>
                         {designChallenges}
                     </div>
                 </div>

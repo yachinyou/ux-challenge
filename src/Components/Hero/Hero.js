@@ -15,7 +15,7 @@ class Hero extends Component {
                 <div className="row">
                     <div className="hero-value col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12" >
                         <h1>Level Up Your Design Skills</h1>
-                        <h6>Practice solving UX problems cusomters face everyday.<br /> Expand your portfolio with work companies want to see.</h6>
+                        <h6>Practice solving problems cusomters face everyday.<br /> Expand your portfolio with work companies want to see.</h6>
                     </div>
                 </div>
             </div>

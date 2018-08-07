@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
+import { Helmet } from "react-helmet";
 import './App.css';
-import { ReactTitle } from 'react-meta-tags';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 import NavBar from './Components/NavBar/NavBar';
 import Hero from './Components/Hero/Hero';
@@ -16,13 +16,13 @@ import SampleDesignChallenge from './Components/SampleDesignChallenge/SampleDesi
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCheckCircle, faQuestionCircle, faShoppingCart, faHome, faSubway, faCalendarCheck, faDumbbell, faBookOpen, faCommentAlt, faDollarSign, faPlane, faNewspaper, faStopwatch, faChartLine} from '@fortawesome/free-solid-svg-icons';
+import { faCheckCircle, faQuestionCircle, faShoppingCart, faHome, faSubway, faCalendarCheck, faDumbbell, faBookOpen, faCommentAlt, faDollarSign, faPlane, faNewspaper, faStopwatch, faBolt} from '@fortawesome/free-solid-svg-icons';
 
 import ReactGA from 'react-ga';
 ReactGA.initialize('UA-648673-27');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
-library.add(faCheckCircle, faQuestionCircle, faShoppingCart, faHome, faSubway, faCalendarCheck, faDumbbell, faBookOpen, faCommentAlt, faDollarSign, faPlane, faNewspaper, faStopwatch, faChartLine);
+library.add(faCheckCircle, faQuestionCircle, faShoppingCart, faHome, faSubway, faCalendarCheck, faDumbbell, faBookOpen, faCommentAlt, faDollarSign, faPlane, faNewspaper, faStopwatch, faBolt);
 
 class App extends Component {
 
@@ -34,7 +34,36 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div className="App">
-          <ReactTitle title="UX Challenge" />
+          <Helmet>
+              <title>UX Challenge</title>
+
+              <script>{`
+                "use strict";
+
+                !function() {
+                  var t = window.driftt = window.drift = window.driftt || [];
+                  if (!t.init) {
+                    if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+                    t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+                    t.factory = function(e) {
+                      return function() {
+                        var n = Array.prototype.slice.call(arguments);
+                        return n.unshift(e), t.push(n), t;
+                      };
+                    }, t.methods.forEach(function(e) {
+                      t[e] = t.factory(e);
+                    }), t.load = function(t) {
+                      var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+                      o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+                      var i = document.getElementsByTagName("script")[0];
+                      i.parentNode.insertBefore(o, i);
+                    };
+                  }
+                }();
+                drift.SNIPPET_VERSION = '0.3.1';
+                drift.load('7krvexgi2iib');
+            `}</script>
+          </Helmet>
           <Route path="/" component={NavBar} />
           <Route path="/" exact component={Hero} />
           <Route path="/" exact component={Challenges} />

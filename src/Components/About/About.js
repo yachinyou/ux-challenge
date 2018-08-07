@@ -17,11 +17,35 @@ class AboutPage extends Component {
                     <div className="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12">
                         <h2>About UX Challenge</h2>
                         <img src={YachinProfile} alt="yachin's profile image" />
-                        <p>Hi, I'm Yachin, user experience (UX) designer and creator of UX Challenge.</p>
-                        <p>Like many designers, I'm constantly looking for opportunities to sharpen my skills, and sometimes it takes the form of a <span className="bold">"fake redesign"</span> of those popular websites or apps — like Instagram.</p>
-                        <p>It makes for a fun project, <span className="bold">but everyone knows it's fake</span>, including our potential employers or clients.</p> 
-                        <p>Wouldn't it be better if we use our problem solving and design skills to make a real difference? Like, <span className="bold">helping a nonprofit organization with their website or app idea?</span></p>
-                        <p><span className="bold">This is why I created UX Challenge</span>, a way for nonprofit organizations to get various design recommendations for their unique problems, and for designers to expand their portfolios with real world case studies.</p>
+                        <p>Hello there! I’m Yachin, UX designer and creator of UX Challenge.</p>
+                        <p>As designers, we know that a portfolio of work is crucial for getting into the field of UX. But like a lot of designers who are just starting out, you might be <span className="bold">stuck in the need-experience-to-get-experience loop.</span></p>
+                        <p>Trust me, I’ve been there, and it sucks.</p>
+                        <p>Should you include the blog you designed for your friend? Write up a case study of your own portfolio? Or should you do another "redesign" of Instagram?</p>
+                        <p>I’ve done all of the above when I was starting out as a designer, and they didn’t really help me get a job.</p>
+                        <p>It wasn’t until I was on the other side of the table looking for designers that I realized why those tricks didn’t work.</p>
+                        <p>When I was looking through portfolios and interviewing for designers to join our team in a company, I was looking for designers who:</p>
+                        <ul>
+                            <li>Have experience <span className="bold">solving real problems that customers face.</span></li>
+                            <li><span className="bold">Show their passion in the field</span> and present case studies that are related to the problems we are trying to solve.</li>
+                            <li>Show that they can <span className="bold">solve problems while thinking on their feet</span> and that they have a design process that helps them and team members untangle complex issues.</li>
+                        </ul>
+                        <p>Yes, you can come up with design projects to do yourself, but the problem with a portfolio of random designs and case studies is that:</p>
+                        <ul>
+                            <li>Employers don’t know if you can solve a problem that customers have in the real world</li>
+                            <li>Employers don’t know if you can solve a problem that THEY CARE ABOUT and satisfy their business needs</li>
+                            <li>Employers don’t know if you can solve a problem under pressure of time and resources</li>
+                        </ul>
+                        <p>Perhaps you’ve just finished your design curriculum and are ready to rock and roll in the field of UX. But without much work experience, how will you show the employers that YOU are the right designer who is ready to solve problems for their customers?</p>
+                        <p>It is simple, and you can start today:</p>
+                        <p><span className="bold">Practice problem solving with design challenges and show the work in your portfolio.</span></p>
+                        <p>Use design challenges as a way to practice your problem solving skills, fine tune your design process while expanding your portfolio with the projects that your potential employers are looking for.</p>
+                        <p>UX Challenge is here to help you do just that.</p>
+                        <p><span className="bold">All the design challenges are inspired by trending products</span> from sites like Product Hunt that solve problems faced by their targeted customers. No more redesigning Spotify for Martians.</p>
+                        <p><span className="bold">Challenges are focused on the hottest product categories currently</span>, like smart home or transportation, so your portfolio is packed with relevant case studies when you send it off to Google, Uber or (insert your dream company here).</p>
+                        <p>You can choose to work on the challenges <span className="bold">in a 45-min session, simulating a whiteboard challenge or 8-hour session, simulating a take home design exercise</span> during the interviewing process.</p>
+                        <p>After you’re finished, you can put the case studies in your portfolio. It tells a story of your design process and who you are as a designer, a product thinker and a problem solver.</p>
+                        <p><span className="bold">Be the must hire design talent to the hottest companies out there.</span></p>
+                        <a className="start-button" href="/">Start a Challenge</a>
                     </div>
                     <div className="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12"></div>
                 </div>
