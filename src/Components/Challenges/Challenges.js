@@ -25,7 +25,7 @@ class Challenges extends Component {
                     id: 1,
                     title: "Finding jeans that fit",
                     category: "e-commerce",
-                    description: "Shopping for form-fitting apparel, like jeans, online could be time-consuming and frustrating. It's hard to compare between different styles, and the return is a hassle when it's in the wrong size. How can you help customers select the style of jeans that they’re looking for in a size that fits?",
+                    description: "Shopping for jeans and other form-fitting apparel online could be time-consuming and frustrating. It's hard to compare between different styles, and it's hard to know for sure how they will fit. It's a disappointing experience when you have to return an item that doesn't fit quite right. How can you help customers select the style of jeans that they’re looking for in the right size?",
                     className: "e-commerce"
                 },
                 {
@@ -39,7 +39,7 @@ class Challenges extends Component {
                     id: 3,
                     title: "Wake up, this is your stop",
                     category: "transportation",
-                    description: "Have you ever tried to take a short nap on the train only to wake up and find yourself at the end of the line? How can you help passengers wake up just before the train arrive at their station?",
+                    description: "Have you ever tried to take a short nap on the train only to wake up and find yourself at the end of the line? How can you help passengers wake up just before the train arrives at their station?",
                     className: "transportation"
                 },
                 {
@@ -53,7 +53,7 @@ class Challenges extends Component {
                     id: 5,
                     title: "Go out and make a new friend",
                     category: "health & fitness",
-                    description: "Friends keep us company through the ups and downs of our lives and help us grow. But as adults, our fear and social anxiety can keep us from making new friends. How can you help people who has social anxiety step out and make new friends?",
+                    description: "Friends keep us company through the ups and downs of our lives and help us grow. But as we grow older, our fear and social anxiety can keep us from making new friends. How can you help people who has social anxiety step out and make new friends?",
                     className: "health-fitness"
                 },
                 {
@@ -74,14 +74,14 @@ class Challenges extends Component {
                     id: 8,
                     title: "Stop unwanted subscription fees",
                     category: "fintech",
-                    description: "It’s hard to keep track of all the products and services that we have subscribed to. All we see is money deducting from our accounts each month, sometimes from services that we don’t need anymore. How can you design a product which helps manage subscriptions?",
+                    description: "It’s hard to keep track of all the products and services that we have subscribed to every month. All we see is money deducting from our accounts, sometimes from services that we don’t need anymore. How can you design a product which helps manage subscriptions?",
                     className: "fintech"
                 },
                 {
                     id: 9,
                     title: "Acclimatize me now!",
                     category: "travel",
-                    description: "It’s one thing to know what the weather is like in your travel destination, and it’s quite another thing to be totally prepared through temperature or altitude changes so that you stay fit and healthy during the trip. How can you design a product that helps travelers prepare and acclimatize fast for their trip so they don't miss a minute of fun?",
+                    description: "It’s one thing to know what the weather is like in your travel destination, and it’s quite another thing to be totally prepared for temperature or altitude changes so that you stay fit and healthy during the trip. How can you design a product that helps travelers prepare and acclimatize fast for their trip so they don't miss a minute of fun?",
                     className: "travel"
                 },
                 {
@@ -120,6 +120,7 @@ class Challenges extends Component {
                     <div className="container">
                     <p className="challenges-inspiration"><FontAwesomeIcon icon="bolt" color="#F7B700" size="lg" />Challenges are <span className="bold">inspired by trending products </span>from sites like Product Hunt or BetaList. Have fun! <a href="/about">About UX Challenge</a><FontAwesomeIcon icon="bolt" color="#F7B700" size="lg" /></p>
                         {designChallenges}
+                    <p className="challenges-inspiration">More challenges coming soon!</p>    
                     </div>
                 </div>
 

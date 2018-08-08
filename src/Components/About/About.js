@@ -45,6 +45,7 @@ class AboutPage extends Component {
                         <p>You can choose to work on the challenges <span className="bold">in a 45-min session, simulating a whiteboard challenge or 8-hour session, simulating a take home design exercise</span> during the interviewing process.</p>
                         <p>After you’re finished, you can put the case studies in your portfolio. It tells a story of your design process and who you are as a designer, a product thinker and a problem solver.</p>
                         <p><span className="bold">Be the must hire design talent to the hottest companies out there.</span></p>
+                        <p>Start a challenge now!</p>
                         <a className="start-button" href="/">Start a Challenge</a>
                     </div>
                     <div className="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12"></div>

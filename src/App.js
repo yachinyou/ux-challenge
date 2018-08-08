@@ -73,7 +73,7 @@ class App extends Component {
           <Route path="/sample-design-challenge" exact component={SampleDesignChallenge} />
           <Route path="/thankyou" exact component={ThankYou} />
           <Route path="/about" exact component={AboutPage} />
-          {/* <Route path="/" exact component={FooterSignUp} /> */}
+          <Route path="/" exact component={FooterSignUp} />
         </div>
       </BrowserRouter>
     );

@@ -1,6 +1,6 @@
 .challenges-list {
     padding: 2em 0;
-    box-shadow: inset 0 2px 30px 0 rgba(0,0,0,0.07);
+    box-shadow: inset 0 0 30px 0 rgba(0,0,0,0.07);
 }
 
 /* .challenges-list .card-deck {
