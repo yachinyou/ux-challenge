@@ -11,7 +11,7 @@ class FooterSignUp extends Component {
     render() {
         return(
             <div className="footer paper">
-                <h5>A design challenge cheat sheet to help you get started</h5>
+                <h5>Here's a cheat sheet to help you get started</h5>
                 <p>Use this <span className="bold">Jobs To Be Done</span>-based process to jump into a challenge now.</p>
                 <div className="form-container">
                     <form action="https://bonsterxbonster.us2.list-manage.com/subscribe/post" method="POST">
