@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 import './About.css';
 import YachinProfile from '../../images/yachin_profile.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class AboutPage extends Component {
 
@@ -40,11 +41,11 @@ class AboutPage extends Component {
                         <p><span className="bold">Practice problem solving with design challenges and show the work in your portfolio.</span></p>
                         <p>Use design challenges as a way to practice your problem solving skills, fine tune your design process while expanding your portfolio with the projects that your potential employers are looking for.</p>
                         <p>UX Challenge is here to help you do just that.</p>
-                        <p><span className="bold">All the design challenges are inspired by trending products</span> from sites like Product Hunt that solve problems faced by their targeted customers. No more redesigning Spotify for Martians.</p>
-                        <p><span className="bold">Challenges are focused on the hottest product categories currently</span>, like smart home or transportation, so your portfolio is packed with relevant case studies when you send it off to Google, Uber or (insert your dream company here).</p>
-                        <p>You can choose to work on the challenges <span className="bold">in a 45-min session, simulating a whiteboard challenge or 8-hour session, simulating a take home design exercise</span> during the interviewing process.</p>
-                        <p>After you’re finished, you can put the case studies in your portfolio. It tells a story of your design process and who you are as a designer, a product thinker and a problem solver.</p>
-                        <p><span className="bold">Be the must hire design talent to the hottest companies out there.</span></p>
+                        <p><FontAwesomeIcon icon="check-circle" color="#82C600" size="lg" /><span className="bold">All design challenges have real world products</span> that try to solve the problems for customers. No more redesigning Spotify for Martians.</p>
+                        <p><FontAwesomeIcon icon="check-circle" color="#82C600" size="lg" /><span className="bold">Challenges are focused on the hottest product categories currently</span>, like smart home or transportation, so your portfolio is packed with relevant case studies when you send it off to Google, Uber or (insert your dream company here).</p>
+                        <p><FontAwesomeIcon icon="check-circle" color="#82C600" size="lg" /><span className="bold">Prepare for your interviews.</span> Work on the challenges in a <span className="bold">45-min session</span>, simulating a whiteboard challenge or an <span className="bold">8-hour session</span>, simulating a take home design exercise.</p>
+                        <p>After you’re finished, <span className="bold">put the case studies in your portfolio</span>. Tell a story of your design process and who you are as a designer, a product thinker and a problem solver.</p>
+                        <p><span className="bold">Be the top design talent your dream company wants to hire.</span></p>
                         <p>Start a challenge now!</p>
                         <a className="start-button" href="/">Start a Challenge</a>
                     </div>

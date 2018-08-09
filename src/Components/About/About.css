@@ -18,6 +18,11 @@
     text-align: left;
 }
 
+
+.about svg {
+    margin-right: 0.5em;
+}
+
 .about img {
     width: 8em;
     height: 8em;
