@@ -37,7 +37,7 @@ class App extends Component {
         <div className="App">
           <Helmet>
             <title>UX Challenge</title>
-            <meta property="title" content="UX Challenge" />
+            {/* <meta property="title" content="UX Challenge" />
             <meta property="description" content="Practice solving problems with UX design challenges" />
 
             <meta property="og:title" content="UX Challenge" />
@@ -47,7 +47,7 @@ class App extends Component {
             <meta name="twitter:card" content={HomePageShareImage} />
 
             <meta property="og:site_name" content="UX Challenge" />
-            <meta name="twitter:image:alt" content="UX Challenge" />
+            <meta name="twitter:image:alt" content="UX Challenge" /> */}
 
 
               <script>{`
