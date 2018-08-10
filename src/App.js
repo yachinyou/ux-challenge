@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Helmet } from "react-helmet";
-import './App.css';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 import NavBar from './Components/NavBar/NavBar';
 import Hero from './Components/Hero/Hero';
@@ -14,6 +13,7 @@ import NpoSellSheet from './Components/NpoSellSheet/NpoSellSheet';
 import ChallengeForm from './Components/ChallengeForm/ChallengeForm';
 import SampleDesignChallenge from './Components/SampleDesignChallenge/SampleDesignChallenge';
 import HomePageShareImage from './images/ux_challenge_share_image.png';
+import './App.css';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -36,7 +36,9 @@ class App extends Component {
       <BrowserRouter>
         <div className="App">
           <Helmet>
-              <title>UX Challenge</title>
+            <title>UX Challenge</title>
+            <meta property="title" content="UX Challenge" />
+            <meta property="description" content="Practice solving problems with UX design challenges" />
 
             <meta property="og:title" content="UX Challenge" />
             <meta property="og:description" content="Practice solving problems with UX design challenges" />
