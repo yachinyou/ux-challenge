@@ -13,6 +13,7 @@ import NpoHero from './Components/NpoHero/NpoHero';
 import NpoSellSheet from './Components/NpoSellSheet/NpoSellSheet';
 import ChallengeForm from './Components/ChallengeForm/ChallengeForm';
 import SampleDesignChallenge from './Components/SampleDesignChallenge/SampleDesignChallenge';
+import HomePageShareImage from './images/ux_challenge_share_image.png';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -36,6 +37,16 @@ class App extends Component {
         <div className="App">
           <Helmet>
               <title>UX Challenge</title>
+
+            <meta property="og:title" content="UX Challenge" />
+            <meta property="og:description" content="Practice solving problems with UX design challenges" />
+            <meta property="og:image" content={HomePageShareImage} />
+            <meta property="og:url" content="http://www.uxchallenge.co/" />
+            <meta name="twitter:card" content={HomePageShareImage} />
+
+            <meta property="og:site_name" content="UX Challenge" />
+            <meta name="twitter:image:alt" content="UX Challenge" />
+
 
               <script>{`
                 "use strict";
