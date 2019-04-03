@@ -80,10 +80,6 @@ class App extends Component {
           <Route path="/" component={NavBar} />
           <Route path="/" exact component={Hero} />
           <Route path="/" exact component={Challenges} />
-          <Route path="/npo" exact component={NpoHero} />
-          <Route path="/npo" exact component={NpoSellSheet} />
-          <Route path="/challenge-form" exact component={ChallengeForm} />
-          <Route path="/sample-design-challenge" exact component={SampleDesignChallenge} />
           <Route path="/thankyou" exact component={ThankYou} />
           <Route path="/about" exact component={AboutPage} />
           <Route path="/" exact component={FooterSignUp} />
