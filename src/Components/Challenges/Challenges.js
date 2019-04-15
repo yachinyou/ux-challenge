@@ -90,6 +90,13 @@ class Challenges extends Component {
                     category: "news & media",
                     description: "When we’re reading on the go, we often get interrupted by events such as the train arriving or social interactions with other people. Many interesting articles get abandoned or added to the ever growing “read later” list. How can you design an experience so readers can read effectively while on the go?",
                     className: "news"
+                },
+                {
+                    id: 11,
+                    title: "Acing college entrance exams",
+                    category: "education",
+                    description: "Preparing for a test as important as college entrance exams can be extremely stressful for both the child and the parents alike. How can you design a service that makes it easy for parents to find help and grow the child’s confidence and knowledge for acing college entrance exams?",
+                    className: "education"
                 }
             ]
         });
