@@ -4,14 +4,9 @@ import { BrowserRouter, Route, Link } from 'react-router-dom';
 import NavBar from './Components/NavBar/NavBar';
 import Hero from './Components/Hero/Hero';
 import Challenges from './Components/Challenges/Challenges';
-import SellSheet from './Components/SellSheet/SellSheet';
 import FooterSignUp from './Components/FooterSignUp/FooterSignUp';
 import ThankYou from './Components/SignUpThankYou/SignUpThankYou';
 import AboutPage from './Components/About/About';
-import NpoHero from './Components/NpoHero/NpoHero';
-import NpoSellSheet from './Components/NpoSellSheet/NpoSellSheet';
-import ChallengeForm from './Components/ChallengeForm/ChallengeForm';
-import SampleDesignChallenge from './Components/SampleDesignChallenge/SampleDesignChallenge';
 import HomePageShareImage from './images/ux_challenge_share_image.png';
 import './App.css';
 
