@@ -9,8 +9,8 @@ class ChallengeDetails extends Component {
 
         this.state = {
             modal: false,
-            shortChallengeInstruction: "For a 45 minute challenge, focus on problem solving and organizing your thinking process. Illustrate your ideas with sketches and wireframes.",
-            longChallengeInstruction: "For an 8-hour challenge, you can perform user research to validate your hypothesis. You can also show high-fidelity designs and prototypes."
+            shortChallengeInstruction: "To practice for an on-site whiteboard UX design exercise, focus on problem-solving and organizing your thinking process. Illustrate your ideas with sketches and wireframes.",
+            longChallengeInstruction: "To create a comprehensive UX design case study for your portfolio, you can perform user research to validate your hypothesis. You can also show high-fidelity designs and prototypes."
         }
 
         this.toggle = this.toggle.bind(this);
@@ -36,11 +36,11 @@ class ChallengeDetails extends Component {
                 <ModalBody>
                     <p className="challenge-description">{this.props.description}</p>
                     <div className="challenge-variation-header">
-                        <FontAwesomeIcon icon="stopwatch" color="#3BC3D1" size="lg" /><span>45-minute challenge</span>
+                        <FontAwesomeIcon icon="stopwatch" color="#3BC3D1" size="lg" /><span>Practice for a Whiteboard UX Design Exercise</span>
                     </div>
                     <p className="challenge-instruction">{this.state.shortChallengeInstruction}</p>
                     <div className="challenge-variation-header">
-                        <FontAwesomeIcon icon="stopwatch" color="#3BC3D1" size="lg" /><span>8-hour challenge</span>
+                        <FontAwesomeIcon icon="stopwatch" color="#3BC3D1" size="lg" /><span>Create a UX design case study for your portfolio</span>
                     </div>
                     <p className="challenge-instruction">{this.state.longChallengeInstruction}</p>
                 </ModalBody>
