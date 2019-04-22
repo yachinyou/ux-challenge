@@ -102,7 +102,7 @@ class Challenges extends Component {
                     id: 12,
                     title: "Planning a multi-city vacation",
                     category: "travel",
-                    description: "A multi-city vacation is exciting, but the planning of it can be stressful and overwhelming. How can you design a tool or service that helps travelers plan a multi-city vacation and create an itinerary that connects their points of interest, considers the length of stay and offers the lowest price?",
+                    description: "A multi-city vacation sounds exciting to almost anyone. However, the planning of it can be overwhelming. How can you design a tool that helps travelers plan a multi-destination tour? Help travelers create an itinerary that connects multiple points of interest. It should consider their desired length of stay in each location. In addition, it should offer low-cost transportation options.",
                     className: "travel"
                 }
             ]
