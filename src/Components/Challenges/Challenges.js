@@ -97,6 +97,13 @@ class Challenges extends Component {
                     category: "education",
                     description: "Preparing for a test as important as college entrance exams can be extremely stressful for both the child and the parents alike. How can you design a service that makes it easy for parents to find help and grow the child’s confidence and knowledge for acing college entrance exams?",
                     className: "education"
+                },
+                {
+                    id: 12,
+                    title: "Planning a multi-city vacation",
+                    category: "travel",
+                    description: "A multi-city vacation is exciting, but the planning of it can be stressful and overwhelming. How can you design a tool or service that helps travelers plan a multi-city vacation and create an itinerary that connects their points of interest, considers the length of stay and offers the lowest price?",
+                    className: "travel"
                 }
             ]
         });
