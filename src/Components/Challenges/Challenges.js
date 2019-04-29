@@ -107,7 +107,7 @@ class Challenges extends Component {
                 },
                 {
                     id: 13,
-                    title: "Show me the money...now!",
+                    title: "Overdue invoices suck!",
                     category: "fintech",
                     description: "Managing multiple clients and projects is a part of running a business as a freelancer. However, sometimes clients don’t pay on time. How do you help freelance business owners keep track of payments from their clients, and make sure that they receive payments from clients promptly for every project?",
                     className: "fintech"
