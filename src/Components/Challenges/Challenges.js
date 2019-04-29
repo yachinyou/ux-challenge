@@ -104,6 +104,13 @@ class Challenges extends Component {
                     category: "travel",
                     description: "A multi-city vacation sounds exciting to almost anyone. However, the planning of it can be overwhelming. How can you design a tool that helps travelers plan a multi-destination tour? Help travelers create an itinerary that connects multiple points of interest. It should consider their desired length of stay in each location. In addition, it should offer low-cost transportation options.",
                     className: "travel"
+                },
+                {
+                    id: 13,
+                    title: "Show me the money...now!",
+                    category: "fintech",
+                    description: "Managing multiple clients and projects is a part of running a business as a freelancer. However, sometimes clients don’t pay on time. How do you help freelance business owners keep track of payments from their clients, and make sure that they receive payments from clients promptly for every project?",
+                    className: "fintech"
                 }
             ]
         });
