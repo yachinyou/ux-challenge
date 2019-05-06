@@ -111,6 +111,13 @@ class Challenges extends Component {
                     category: "fintech",
                     description: "Managing multiple clients and projects is a part of running a business as a freelancer. However, sometimes clients don’t pay on time. How do you help freelance business owners keep track of payments from their clients, and make sure that they receive payments from clients promptly for every project?",
                     className: "fintech"
+                },
+                {
+                    id: 14,
+                    title: "Help job seekers create a glowing resume",
+                    category: "productivity",
+                    description: "It takes hours of editing for job seekers to create a layout for their resumes. When recruiters are on the go, they may have a hard time viewing the resumes on mobile devices. Moreover, when a mistake needs to be corrected on the resume, the whole document needs to be resent all over again. How do you design a tool that helps job seekers effortlessly create a resume that stands out, and is also easily viewable on any devices?",
+                    className: "productivity"
                 }
             ]
         });
