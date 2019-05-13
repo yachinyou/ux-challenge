@@ -118,6 +118,13 @@ class Challenges extends Component {
                     category: "productivity",
                     description: "It takes hours of editing for job seekers to create a layout for their resumes. When recruiters are on the go, they may have a hard time viewing the resumes on mobile devices. Moreover, when a mistake needs to be corrected on the resume, the whole document needs to be resent all over again. How do you design a tool that helps job seekers effortlessly create a resume that stands out, and is also easily viewable on any devices?",
                     className: "productivity"
+                },
+                {
+                    id: 15,
+                    title: "Save sea turtles by reducing single-use packaging from online shopping",
+                    category: "e-commerce",
+                    description: "Every time someone orders a product online, a sea turtle dies of suffocation from trash...well, almost. It costs money for companies to supply durable packaging for products. It takes time, energy and space for customers to manage the trash. It hurts all other living beings on earth who have to live with the consequence of our desire for convenience. How would you reimagine a system that can help reduce single-use packaging from e-commerce?",
+                    className: "e-commerce"
                 }
             ]
         });
