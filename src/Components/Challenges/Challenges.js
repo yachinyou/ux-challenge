@@ -125,6 +125,13 @@ class Challenges extends Component {
                     category: "e-commerce",
                     description: "Every time someone orders a product online, a sea turtle dies of suffocation from trash...well, almost. It costs money for companies to supply durable packaging for products. It takes time, energy and space for customers to manage the trash. It hurts all other living beings on earth who have to live with the consequence of our desire for convenience. How would you reimagine a system that can help reduce single-use packaging from e-commerce?",
                     className: "e-commerce"
+                },
+                {
+                    id: 16,
+                    title: "Give your eyes a break",
+                    category: "health & fitness",
+                    description: "According to a 2018 report released by Nielsen, American adults spend over 11 hours per day interacting with media on various types of screens and devices. Prolonged computer and device use can cause dry eyes, blurry vision, irritation and eye strain among other symptoms. How do you design a tool that can help screen users take a break from staring at the screen for too long?",
+                    className: "health-fitness"
                 }
             ]
         });
